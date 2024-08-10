@@ -146,7 +146,7 @@ function aptWeekGenerator (dateInput) {
   }
 
   console.log("firstWeekNumber: " + firstWeekNumber );
-
+*/
   // Calculate totalDaysToMonth
   function totalDayz(date, month, year) {
     const daysInMonths = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
@@ -162,7 +162,7 @@ function aptWeekGenerator (dateInput) {
 
   totalDaysToMonth = totalDayz(1, defineMonth, defineYear);
   console.log("totalDaysToMonth: " + totalDaysToMonth );
-*/
+
   // Calculate startWeekOfMonth
   const b = new Date(defineYear, 0, 1).getDay();
   let c = b >= 5 ? b - 5 : b + 2;
