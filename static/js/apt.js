@@ -595,7 +595,10 @@ function loadTimeIntervalChoices() {
   iLoadTimeInterval();
 }
 
-window.onload = function() {
+function loadApt() {
   initializeApt();
   loadTimeIntervalChoices();
 }
+
+window.onload = function() {}
+  
