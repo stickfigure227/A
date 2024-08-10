@@ -113,6 +113,7 @@ function aptWeekGenerator (dateInput) {
   console.log("colorOfTheWeek: " + colorOfTheWeek );
   console.log("abbreviatedMonthsOfTheWeek: " + abbreviatedMonthsOfTheWeek );
 
+/*
   // Defining MiniCalendar
   let totalWeekNumber;
   let prevTotalWeekNumber;
@@ -247,6 +248,7 @@ function aptWeekGenerator (dateInput) {
   weekHeader = setUniqueYearsOfTheWeek.size === 2 || setUniqueMonthsOfTheWeek.size === 2 ? longWeekHeader : weekHeaderArray[2];
   console.log(weekHeader);
   wYear.textContent = weekHeader;
+*/
 
   // Week Coloring
   const dayIdArray = ['day1', 'day2', 'day3', 'day4', 'day5', 'day6', 'day0'];
