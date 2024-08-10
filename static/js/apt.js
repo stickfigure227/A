@@ -495,7 +495,7 @@ function iLoadTimeInterval() {
   apt2c1.style.gridTemplateRows = `repeat(${numberOfTimeIWant}, 60px)`;
 
   // creating the grid
-  createPs('apt2c2', numberOfTimeIWant * 7, (index) => {const time = ''; return time;});
+  createPs('apt2c2', numberOfTimeIWant, (index) => {const time = ''; return time;});
   const apt2c2 = document.getElementById('apt2c2');
   apt2c2.style.gridTemplateRows = `repeat(${numberOfTimeIWant}, 60px)`;
 
