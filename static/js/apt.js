@@ -162,7 +162,7 @@ function aptWeekGenerator (dateInput) {
 
   totalDaysToMonth = totalDayz(1, defineMonth, defineYear);
   console.log("totalDaysToMonth: " + totalDaysToMonth );
-*/
+
   // Calculate startWeekOfMonth
   const b = new Date(defineYear, 0, 1).getDay();
   let c = b >= 5 ? b - 5 : b + 2;
@@ -231,7 +231,7 @@ function aptWeekGenerator (dateInput) {
   console.log("yearNumberArray: " + yearNumberArray );
   console.log("colorDayNumberArray: " + colorDayNumberArray );
   //Color the generated Days, if dateInput = -1, today = 1, else = 0
-  
+  */
   // Week 'apt2b2'
   // Week Header
   const wYear = document.getElementById('wYear');
