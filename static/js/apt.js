@@ -175,7 +175,7 @@ function aptWeekGenerator (dateInput) {
   }
 
   console.log("startWeekOfMonth: " + startWeekOfMonth );
-
+*/
   for (let i = 0; i < 7; i++) {
     if (i === 0 && startWeekOfMonth === 0) {
       weekNumberArray[i] = prevTotalWeekNumber;
@@ -187,7 +187,7 @@ function aptWeekGenerator (dateInput) {
   }
 
   console.log("weekNumberArray: " + weekNumberArray );
-*/
+
   //Generate the days
   for (let i = 0; i < 6; i++) {
     for (let j = 0; j < 7; j++) {
