@@ -493,7 +493,7 @@ function iLoadTimeInterval() {
 
   const apt2c1 = document.getElementById('apt2c1');
   apt2c1.style.gridTemplateRows = `repeat(${numberOfTimeIWant}, 60px)`;
-
+/*
   // creating the grid
   createPs('apt2c2', numberOfTimeIWant, (index) => {const time = ''; return time;});
   const apt2c2 = document.getElementById('apt2c2');
@@ -507,6 +507,7 @@ function iLoadTimeInterval() {
 
   newTimeSetArray ('apt2c2p', numberOfTimeIWant * 7);
   console.log(timeSetArrayID);
+*/
 }
 
 timeInterval.addEventListener('change', function() {
