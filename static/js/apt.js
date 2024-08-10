@@ -453,6 +453,7 @@ function createPs(parentId, numOfPs, contents) {
   for (let i = 0; i < numOfPs; i++) {
     const newPp = document.createElement('p');
     newPp.textContent = contents(i);
+    newPp.id = parentId + 'p' + i;
     parent.appendChild(newPp);
     
   }
@@ -483,7 +484,7 @@ function iLoadTimeInterval() {
     newTime.setMinutes(newTime.getMinutes() + interval); // Add interval
     return newTime;
   }
-
+/*
   createPs('apt2c1', numberOfTimeIWant, (index) =>  {
     const interval = timeIntervalsavedValue; // Get interval value
     const time = addTimeInterval(startTime, index * interval); // Calculate the time
@@ -506,7 +507,7 @@ function iLoadTimeInterval() {
 
   newTimeSetArray ('apt2c2p', numberOfTimeIWant * 7);
   console.log(timeSetArrayID);
-
+*/
 }
 
 timeInterval.addEventListener('change', function() {
