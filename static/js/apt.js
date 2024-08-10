@@ -23,8 +23,13 @@ const valueToMonth = [
 ];
 let abbreviatedMonthsOfTheWeek = [];
 let timeIntervalChoices = [
+  '60', '90' //ONLY IN MINUTES!! Some function may broke down otherwise
+];
+/*
+let timeIntervalChoices = [
   '10', '15', '20', '30', '45', '60', '90' //ONLY IN MINUTES!! Some function may broke down otherwise
 ];
+*/
 const divisor7Remainder = [
   0, 1, 2, 3, 4, 5, 6
 ];
