@@ -113,7 +113,7 @@ function aptWeekGenerator (dateInput) {
   console.log("colorOfTheWeek: " + colorOfTheWeek );
   console.log("abbreviatedMonthsOfTheWeek: " + abbreviatedMonthsOfTheWeek );
 
-/*
+
   // Defining MiniCalendar
   let totalWeekNumber;
   let prevTotalWeekNumber;
@@ -231,7 +231,7 @@ function aptWeekGenerator (dateInput) {
   console.log("yearNumberArray: " + yearNumberArray );
   console.log("colorDayNumberArray: " + colorDayNumberArray );
   //Color the generated Days, if dateInput = -1, today = 1, else = 0
-  */
+  
   // Week 'apt2b2'
   // Week Header
   const wYear = document.getElementById('wYear');
