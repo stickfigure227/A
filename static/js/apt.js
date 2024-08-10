@@ -231,7 +231,7 @@ function aptWeekGenerator (dateInput) {
   console.log("yearNumberArray: " + yearNumberArray );
   console.log("colorDayNumberArray: " + colorDayNumberArray );
   //Color the generated Days, if dateInput = -1, today = 1, else = 0
-  
+  */
   // Week 'apt2b2'
   // Week Header
   const wYear = document.getElementById('wYear');
@@ -248,7 +248,7 @@ function aptWeekGenerator (dateInput) {
   weekHeader = setUniqueYearsOfTheWeek.size === 2 || setUniqueMonthsOfTheWeek.size === 2 ? longWeekHeader : weekHeaderArray[2];
   console.log(weekHeader);
   wYear.textContent = weekHeader;
-*/
+
 
   // Week Coloring
   const dayIdArray = ['day1', 'day2', 'day3', 'day4', 'day5', 'day6', 'day0'];
