@@ -113,7 +113,7 @@ function aptWeekGenerator (dateInput) {
   console.log("colorOfTheWeek: " + colorOfTheWeek );
   console.log("abbreviatedMonthsOfTheWeek: " + abbreviatedMonthsOfTheWeek );
 
-/*
+
   // Defining MiniCalendar
   let totalWeekNumber;
   let prevTotalWeekNumber;
@@ -162,7 +162,7 @@ function aptWeekGenerator (dateInput) {
 
   totalDaysToMonth = totalDayz(1, defineMonth, defineYear);
   console.log("totalDaysToMonth: " + totalDaysToMonth );
-*/
+
   // Calculate startWeekOfMonth
   const b = new Date(defineYear, 0, 1).getDay();
   let c = b >= 5 ? b - 5 : b + 2;
