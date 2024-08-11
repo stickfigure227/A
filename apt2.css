@@ -1,0 +1,152 @@
+.apt2{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  z-index: 1;
+}
+.apt2a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.apt2a1{
+  display: flex;
+  flex-direction: row;
+  min-width: 250px;
+  margin: 4px 0px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.apt2a1Butt{
+  margin: 0px 8px;
+  padding: 2px 8px;
+  font-size: 20pt;
+}
+.apt2a1H4{
+  margin: 0;
+  width: 240px;
+  text-align: center;
+  font-size: 16pt;
+}
+.apt2a2{
+  display: flex;
+  flex-direction: row;
+  min-width: 250px;
+  margin: 4px 0px;
+  padding: 0px 20px;
+  justify-content: right;
+}
+.apt2a2Butt{
+  font-family: 'Outfit', sans-serif;
+  margin: 0px 8px;
+  font-size: 12pt;
+  padding: 2px 18px;
+}
+.apt2b{
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+  
+}
+.apt2b2{
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.apt2b2 p{
+  margin-right: 4px;
+  border-radius: 20px;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.apt2b2 p:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.apt2c{
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+.apt2c0{
+  flex: 0.1;
+  display: grid;
+}
+.apt2c0 p{
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 0;
+}
+.apt2c1{
+  flex: 1;
+  display: grid;
+}
+.apt2c2{
+  flex: 14;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  position: relative;
+}
+.apt2c1 p{
+  padding: 0 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: right;
+  font-size: 12px;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.apt2c2 p{
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  text-align: right;
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.highlight {
+  background-color: #007BFF;
+  color: white; /* Ensure text is readable */
+  border-radius: 5px;
+  padding: 0px 4px;
+  display: inline-block;
+}
+.past{
+  color: rgba(0,0,0,0.3);
+}
+.apt2c2a tbody tr td{
+  border-top: 1px solid #ddd; 
+  border-left: 1px solid #ddd;
+  height: 60px;
+}
+.apt2c0a tbody tr td{
+  border-top: 1px solid #ddd; 
+  height: 60px;
+}
+.apt2c1a{
+  margin-top: -10px;
+  margin-right: 5px;
+  height: 100% + 0.8px;
+  text-align: right;
+}
+.apt2c1a tbody tr td{
+  font-size: 14px;
+  vertical-align: top;
+  height: 60.8px;
+}
