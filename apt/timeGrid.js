@@ -48,33 +48,24 @@ function iLoadTimeInterval() {
   apt2c1p0.style.marginLeft = '16px';
   apt2c1p0.style.borderTop = '1px solid #ddd';
   
-  
-  // Creating the Gap Grid
-  createPs('apt2c0', numberOfTimeIWant, (index) => '');
-  apt2c0.style.gridTemplateRows = `repeat(${numberOfTimeIWant}, 60px)`;
-
-  // Creating the Grid
-  createPs('apt2c2', numberOfTimeIWant * 7, (index) => '');
-  const apt2c2 = document.getElementById('apt2c2');
-  apt2c2.style.gridTemplateRows = `repeat(${numberOfTimeIWant}, 60px)`;
-  function newTimeSetArray (frontWord, howMuch) {
-    for (let i = 0; i < howMuch; i++) {
-      timeSetArrayID[i] = frontWord + i;
+  // Clear existing table content
+  function clearTable(tableId) {
+    const tbody = document.querySelector(`#${tableId} tbody`);
+    while (tbody.firstChild) {
+      tbody.removeChild(tbody.firstChild);
     }
   }
-  newTimeSetArray ('apt2c2p', numberOfTimeIWant * 7);
-  console.log(timeSetArrayID);
-  */
 
-  /**/
+  // Clear and recreate the tables
+  clearTable('apt2c1a');
   createTableElements('apt2c1a', numberOfTimeIWant, 1, (i) => {
     const interval = timeIntervalsavedValue; // Get interval value
     const time = addTimeInterval(startTime, i * interval); // Calculate the time
     return formatTime(time); // Format the time to HH:MM AM/PM
   });
-  
+  clearTable('apt2c0a');
   createTableElements('apt2c0a', numberOfTimeIWant, 1, (i) => '');
-  
+  clearTable('apt2c2a');
   createTableElements('apt2c2a', numberOfTimeIWant, 7, (i) => '');
   const apt2c1atd00 = document.getElementById('apt2c1atd0-0');
   apt2c1atd00.style.color = 'transparent';
